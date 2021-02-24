@@ -4,7 +4,7 @@ Implemented Hirschberg's algorithm for finding the Leveinstein distance between 
 
 Given a keyword, the API will find the top three matches in a keyword database of Firestore.
 
-##API Functions:
+## API Functions:
 GET: api/keywords
 Return all keywords in the following format
 Return Format:
