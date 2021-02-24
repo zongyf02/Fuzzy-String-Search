@@ -101,3 +101,6 @@ Note all fields are optional
 
 DELETE: /api/delete/:id
 Delete the entry with said ID
+
+See it in action in my friends's website [here](https://1liale.github.io/PersonalWebsite/).
+The search by topic options calls this api to find the keyword matches.
