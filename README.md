@@ -30,6 +30,7 @@ Return Format:
   "id": "UniqueStringID",
   "kw": ["AlphanumericOr-_Only",...],
   "data": "Any String"
+  "score": LevensteinDistanceLowerBetter
   }, or NULL
   ...
 ]
