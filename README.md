@@ -106,7 +106,7 @@ Delete the entry with said ID
 The Hirsberg Algorithm uses DP and divide and conquer to achieve O(nm) time but only O(min(n, m)) space, where n and m are the length of the 2 strings.
 It is commonly used in computational biology to match DNA seqeunces. Wiki article [here](https://en.wikipedia.org/wiki/Hirschberg's_algorithm).
 
-However, to find the top three matching words from database, the API completely evaluates the Leveinstein distance all words in the database. This can be optimized by stopping evaluation once the distance exceeds previous best distances.
+However, to find the top three matching words from database, the API completely evaluates the Leveinstein distance of all keywords in the database. This can be optimized by stopping evaluation once the distance exceeds previous best distances.
 
 The issue remains though that the API basically downloads the entire database each time a request is called. This can be optimized by filtering first and only downloads plausible results.
 
