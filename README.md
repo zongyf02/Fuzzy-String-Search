@@ -115,3 +115,9 @@ Realistically, although the algorithm can handle strings of thousands and even m
 ## In Action
 See it in action in my friends's website [here](https://1liale.github.io/PersonalWebsite/).
 The search by topic options calls this API to find the keyword matches.
+
+
+## kwParser
+A rudimentary program that extracts alphanumeric-_ words from a flat file.
+Converts it into valid JSON format to add to database.
+Data will default to the same thing as kw.
