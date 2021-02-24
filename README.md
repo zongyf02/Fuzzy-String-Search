@@ -9,20 +9,16 @@ API Functions:
 GET: api/keywords
 Return all keywords in the following format
 Return Format:
+
+```javascript
 [{
-
   "id": "UniqueStringID",
-  
   "kw": ["AlphanumericOr-_",...],
-  
   "data": "Any String",
-  
   },
-  
   ...
-  
 ]
-
+```
 Note all fields are mandatory
 
 
