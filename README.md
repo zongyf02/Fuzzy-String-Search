@@ -5,7 +5,7 @@ Implemented Hirschberg's algorithm for finding the Leveinstein distance between 
 Given a keyword, the API will find the top three matches in a keyword database of Firestore.
 
 ## API Functions:
-GET: api/keywords
+### GET: api/keywords
 Return all keywords in the following format
 Return Format:
 
@@ -21,7 +21,7 @@ Return Format:
 Note all fields are mandatory
 
 
-GET: api/match/:kw
+### GET: api/match/:kw
 Return the top three matching keywords
 Return Format:
 
@@ -39,7 +39,7 @@ Return Format:
 Note all fields are mandatory
 
 
-GET: api/match-exact/:kw
+### GET: api/match-exact/:kw
 Return an exact match, if possible
 Return Format:
 
@@ -52,7 +52,7 @@ Return Format:
 ```
 Note all fields are mandatory
 
-POST: api/add
+### POST: api/add
 Add the an entry from req body to the database
 Req body format:
 
@@ -66,7 +66,7 @@ Req body format:
 Note all fields are mandatory
 
 
-POST: /api/add-batch
+### POST: /api/add-batch
 
 Add an array of entries to database
 
@@ -84,7 +84,7 @@ Req body format:
 Note all fields are mandatory
 
 
-PUT: api/update/:id
+### PUT: api/update/:id
 Update an entry by its ID
 Req body format:
 
@@ -99,7 +99,7 @@ Req body format:
 Note all fields are optional
 
 
-DELETE: /api/delete/:id
+### DELETE: /api/delete/:id
 Delete the entry with said ID
 
 ## Efficiency
